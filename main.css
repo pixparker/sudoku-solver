@@ -1,0 +1,54 @@
+body{
+  background-color: #d8e1eb;
+}
+
+#table{
+  text-align: center;
+}
+
+.cell{
+  border: 1px solid gray;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-left: -1px;  
+  position: relative;
+}
+
+.cell:hover{
+  background-color: white;
+  border-color: green;  
+}
+
+.row {
+  display: block;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  margin-top: -1px;
+  position: relative;
+}
+
+.cell>.number {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 54px;
+  color: #091b42;
+  font-size: 32px;
+}
+
+.solve-button{
+  margin: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 6px 55px;
+    cursor: pointer;
+    color: green;
+    background: #efffe7;
+    border: 1px solid lightgray;
+    background-color: white;
+}
